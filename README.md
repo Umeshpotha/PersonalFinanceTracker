@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # PersonalFinanceTracker
-=======
+
 # Personal Finance Tracker (SQL-Only Project)
 
 A portfolio-ready, SQL-centric project to track income, expenses, budgets, investments, and debts — with reports and simple forecasting.  
@@ -61,4 +61,4 @@ Debts (DebtID PK) --< DebtPayments >-- Transactions
 - Balances are maintained via triggers (INSERT/UPDATE/DELETE on `Transactions`). See `triggers.sql`.
 - Forecasting is intentionally simple (average savings × months). Extend as you wish.
 - Tested on MySQL 8.0; for PostgreSQL, adjust `AUTO_INCREMENT`, `ENUM`, and trigger syntax.
->>>>>>> 14d92e0 (PFT - Final commit)
+
